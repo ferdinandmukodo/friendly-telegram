@@ -17,19 +17,22 @@ function AccountContainer() {
 
   return (
     <div>
+       
       <Search setSearch={setSearch} />
       <AddTransactionForm
         transactions={transactions}
         setTransactions={setTransactions}
       />
       <TransactionsList
-        transactions={transactions.filter(transaction => {
-          if (search === '') {
-            return true;
-          }
-          return transaction.description.includes(search);
-        })}
-      />
+          transactions={transactions.filter(transaction => {
+            if (search === '') {
+              return true;
+            }else
+            return transaction.description.includes(search);
+            return transaction.amount.includes(search)
+          })}
+        />
+     
     </div>
   );
 }

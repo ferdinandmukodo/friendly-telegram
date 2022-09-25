@@ -146,6 +146,48 @@
       "category": "Food",
       "amount": "100",
       "id": 21
+    },
+    {
+      "date": "2022-09-26",
+      "description": "porridge",
+      "category": "Food",
+      "amount": "200",
+      "id": 22
+    },
+    {
+      "date": "2022-10-02",
+      "description": "Afia drink from Naivas Supermarket",
+      "category": "Food",
+      "amount": "70",
+      "id": 23
+    },
+    {
+      "date": "2022-10-04",
+      "description": "Payment of rent to the Landlord",
+      "category": "Housing",
+      "amount": "7",
+      "id": 24
+    },
+    {
+      "date": "2022-10-05",
+      "description": "hioo",
+      "category": "nyuka",
+      "amount": "898",
+      "id": 25
+    },
+    {
+      "date": "2022-10-05",
+      "description": "porridge",
+      "category": "Food",
+      "amount": "75",
+      "id": 26
+    },
+    {
+      "date": "2022-10-05",
+      "description": "Afia drink from Naivas Supermarket",
+      "category": "decking",
+      "amount": "79",
+      "id": 27
     }
   ]
 }

@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import Transaction from "./Transaction";
 
 function TransactionsList(props) {
+ 
   let transactions = props.transactions;
   return (
     <table className="ui celled striped padded table">
@@ -20,14 +21,14 @@ function TransactionsList(props) {
             <h3 className="ui center aligned header">Amount</h3>
           </th>
         </tr>
-        {transactions.map(t => {
+        {transactions.map(transactions => {
           return (
             <Transaction
-              key={t.id}
-              date={t.date}
-              description={t.description}
-              category={t.category}
-              amount={t.amount}
+              key={transactions.id}
+              date={transactions.date}
+              description={transactions.description}
+              category={transactions.category}
+              amount={transactions.amount}
             />
           );
         })}
