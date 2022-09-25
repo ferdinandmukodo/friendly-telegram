@@ -1,14 +1,15 @@
 
 
 import React from "react";
-
-function Transaction(props) {
+//const {date, description,category,amount} = props
+//const props = {description,date,category,amount}
+function Transaction({date,description,category,amount}) {
   return (
     <tr>
-      <td>{props.date}</td>
-      <td>{props.description}</td>
-      <td>{props.category}</td>
-      <td>{props.amount}</td>
+      <td>{date}</td>
+      <td>{description}</td>
+      <td>{category}</td>
+      <td>{amount}</td>
     </tr>
   );
 }

@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import Transaction from "./Transaction";
 
 function TransactionsList(props) {
-  const transactions = props.transactions;
+  let transactions = props.transactions;
   return (
     <table className="ui celled striped padded table">
       <tbody>

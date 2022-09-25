@@ -132,6 +132,20 @@
       "category": "Basic",
       "amount": "5000",
       "id": 19
+    },
+    {
+      "date": "2022-09-26",
+      "description": "Afia drink from Naivas Supermarket",
+      "category": "Food",
+      "amount": "100",
+      "id": 20
+    },
+    {
+      "date": "2022-09-26",
+      "description": "Afia drink from Naivas Supermarket",
+      "category": "Food",
+      "amount": "100",
+      "id": 21
     }
   ]
 }
