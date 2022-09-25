@@ -83,6 +83,13 @@
       "description": "Venmo, Pay Roommate for Rent",
       "category": "Housing",
       "amount": -975
+    },
+    {
+      "date": "2022-09-25",
+      "description": "Afia drink from Naivas Supermarket",
+      "category": "Food",
+      "amount": "160.00",
+      "id": 13
     }
   ]
 }
