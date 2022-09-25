@@ -26,14 +26,12 @@ function AddTransactionForm(props) {
       })
   }
 
-  function handleChange(evt) {
+  function handleChange(e) {
     setState({
       ...state,
-      [evt.target.name]: evt.target.value,
+      [e.target.name]: e.target.value,
     });
   }
-
-  console.log(state);
 
   return (
     <div className="ui segment">

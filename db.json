@@ -90,6 +90,48 @@
       "category": "Food",
       "amount": "160.00",
       "id": 13
+    },
+    {
+      "date": "2022-09-25",
+      "description": "Payment of rent to the Landlord",
+      "category": "Housing",
+      "amount": "1000",
+      "id": 14
+    },
+    {
+      "date": "2022-09-25",
+      "description": "Payment of Swimming Pool",
+      "category": "Recreation",
+      "amount": "250",
+      "id": 15
+    },
+    {
+      "date": "2022-09-26",
+      "description": "Pay Fare To Nairobi city",
+      "category": "Transportation",
+      "amount": "80",
+      "id": 16
+    },
+    {
+      "date": "2022-09-30",
+      "description": "Salary From GE",
+      "category": "Income",
+      "amount": "85000",
+      "id": 17
+    },
+    {
+      "date": "2022-10-01",
+      "description": "Payment, Health insurance cover to Bima",
+      "category": "Health",
+      "amount": "500",
+      "id": 18
+    },
+    {
+      "date": "2022-10-31",
+      "description": "Shopping At Prestige Mall, Naivas",
+      "category": "Basic",
+      "amount": "5000",
+      "id": 19
     }
   ]
 }

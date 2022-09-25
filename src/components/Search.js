@@ -1,10 +1,10 @@
 import React from "react";
 
-function Search(props) {
-  const setSearch = props.setSearch;
+function Search(searching) {
+  const setSearch = searching.setSearch;
 
-  function handleChange(evt) {
-    setSearch(evt.target.value);
+  function handleChange(e) {
+    setSearch(e.target.value);
   }
 
   return (
